@@ -3,7 +3,7 @@ import { SubmitKey } from "../store/app";
 const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
-    Unauthorized: "现在是未授权状态，请在设置页填写授权码。",
+    Unauthorized: "现在是未授权状态，请在设置页填写授权码，授权码获取地址:http://store.zhtwinkle.xyz",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
@@ -96,8 +96,8 @@ const cn = {
     },
     Token: {
       Title: "API Key",
-      SubTitle: "使用自己的 Key 可绕过受控访问限制",
-      Placeholder: "OpenAI API Key",
+      SubTitle: " ",
+      Placeholder: " ",
     },
     Usage: {
       Title: "账户余额",
